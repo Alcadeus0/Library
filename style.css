@@ -1,0 +1,55 @@
+*{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(10, 118, 121);
+}
+
+.container{
+    padding-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+table{
+    border-collapse: collapse;
+
+}
+th{
+    background-color: lavenderblush;
+    border: 2px solid rgb(10, 118, 121);
+
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+
+}
+td{
+    border: 2px solid rgb(10, 118, 121);
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+
+}
+
+#book-form{
+    background-color: lavenderblush;
+    border: 3px solid rgb(10, 118, 121);
+    padding: 5px;
+}
+input{
+    width: 100%;
+    padding: 5px 10px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(10, 118, 121);
+}
+input[type=checkbox]{
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: 5px;
+}
